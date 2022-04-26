@@ -11,14 +11,10 @@ export const Container = styled.div`
     right: 15px;
     cursor: pointer;
     z-index: 9999;
-    width: 30px;
-    height: 30px;
-    background-color: #ffe204;
-    color: white;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
     border-radius: 20px;
-    :hover {
-      background-color: #fff;
-    }
   }
 `;
 

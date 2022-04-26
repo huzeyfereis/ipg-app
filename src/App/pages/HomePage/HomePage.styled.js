@@ -8,7 +8,7 @@ export const Container = styled.div`
     line-height: 40px;
     font-weight: 500;
     color: #003063;
-    margin: 35px 0;
+    margin: 35px 0px;
   }
 `;
 

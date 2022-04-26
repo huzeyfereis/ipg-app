@@ -63,6 +63,7 @@ const HomePage = () => {
           <>
             {favoriteCities.map((city) => (
               <WeatherCard
+                key={city.id}
                 cityId={city.id}
                 cityName={city.cityName}
                 cityImage={city.cityImage}

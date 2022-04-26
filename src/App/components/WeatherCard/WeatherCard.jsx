@@ -7,8 +7,8 @@ import {
   WeatherInfos,
 } from './WeatherCard.styled';
 
-import addFavIcon from '../../../assets/images/addFavIcon.svg';
-import removeFavIcon from '../../../assets/images/removeFavIcon.svg';
+import addFavIcon from '../../../assets/images/addFav.png';
+import removeFavIcon from '../../../assets/images/removeFav.png';
 
 const WeatherCard = ({
   cityId,
