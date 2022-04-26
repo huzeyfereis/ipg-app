@@ -52,8 +52,8 @@ const Login = () => {
   const handleLogin = (event) => {
     event.preventDefault();
     if (
-      (usernameRef.current.value === approvedUser.username) &
-      (passwordRef.current.value === approvedUser.password)
+      usernameRef.current.value === approvedUser.username &&
+      passwordRef.current.value === approvedUser.password
     ) {
       setError('');
       dispatch(createUsername(usernameRef.current.value));
