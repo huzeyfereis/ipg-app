@@ -28,7 +28,7 @@ const SearchForm = () => {
         <TextField
           inputRef={cityNameRef}
           className='searchInput'
-          id='outlined-basic'
+          id='searchInput'
           label='Enter a City'
           variant='outlined'
         />
@@ -36,6 +36,7 @@ const SearchForm = () => {
           onClick={handleFormSubmit}
           className='searchButton'
           variant='contained'
+          id='searchBtn'
         >
           Search
         </Button>

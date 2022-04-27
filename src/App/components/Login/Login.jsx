@@ -112,9 +112,14 @@ const Login = () => {
               id='password'
               inputRef={passwordRef}
             />
-            {error !== '' ? <ErrorText>{error}</ErrorText> : ''}
+            {error !== '' ? (
+              <ErrorText id='errorMessage'>{error}</ErrorText>
+            ) : (
+              ''
+            )}
             <Button
               type='submit'
+              id='loginBtn'
               fullWidth
               variant='contained'
               sx={{ mt: 2, mb: 2 }}

@@ -24,7 +24,10 @@ const WeatherCard = ({
 }) => {
   return (
     <Container>
-      <Card sx={{ minWidth: 345 }}>
+      <Card
+        id={cityId ? 'favWeatherCard' : 'weatherCard'}
+        sx={{ minWidth: 345 }}
+      >
         <CardMedia
           component='img'
           height='200'
@@ -42,7 +45,7 @@ const WeatherCard = ({
         {handleRemoveFavoriteCity && (
           <img
             onClick={handleRemoveFavoriteCity}
-            className='addFavIcon'
+            className='removeFavIcon'
             src={removeFavIcon}
             alt='removeFav'
             id={cityId}

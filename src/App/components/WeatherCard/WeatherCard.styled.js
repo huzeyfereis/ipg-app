@@ -16,6 +16,18 @@ export const Container = styled.div`
     background-color: #fff;
     border-radius: 20px;
   }
+
+  .removeFavIcon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 9999;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
 `;
 
 export const WeatherCardTitle = styled.div`
